@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.py[cod]
+
+# Large local datasets
+DataCoSupplyChainDataset.csv
+tokenized_access_logs.csv
