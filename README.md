@@ -46,5 +46,6 @@ The repository is structured like an enterprise product feature launch, separati
 ├── src/                      # 📂 Production Source Code
 │   ├── baseline_regression.py            # Phase 1: Linear Model
 │   ├── xgboost_regression.py             # Phase 2: Production Pipeline
-│   └── quantum_regression.py             # Phase 3: Qiskit QSVR/VQR Simulator
+│   └── quantum_regression.py             # Phase 3(A): Variational VQR Prototype
+│   └── qsvr_regression.py                # Phase 3(B): Entangled Quantum Kernel (QSVR)
 └── README.md                 # 📄 Executive Brief
